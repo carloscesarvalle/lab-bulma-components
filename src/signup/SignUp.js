@@ -10,7 +10,7 @@ const SignUp = (props) => {
             <FormField type='text' name='name' placeholder='Insert your name' />
             <FormField type='email' name='email' placeholder='Insert your email' />
             <FormField type='password' name='password' placeholder='Insert your password' />
-            <CoolButton className='button my-class is-primary' type='Submit'/>
+            <CoolButton className='button my-class is-primary' name='Submit'/>
         </div>
     );
 };
